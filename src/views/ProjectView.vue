@@ -1,5 +1,5 @@
 <script setup>
-import { reactive } from 'vue'
+import { onMounted, reactive } from 'vue'
 
 const projectList = reactive(
     [
@@ -163,8 +163,9 @@ function addToFilter(index) {
 <template>
     <div class="container py-5">
         <div>
-            <h5><span v-for="(item, index) of filterOption" class="border badge mb-2 ms-2 p-3 p-lg-2"
-                    :class="item.state ? 'text-bg-primary' : 'text-bg-light'" @click="addToFilter(index)">{{
+            <h5><span style="cursor: pointer" v-for="(item, index) of filterOption"
+                    class="border badge mb-2 ms-2 p-3 p-lg-2" :class="item.state ? 'text-bg-primary' : 'text-bg-light'"
+                    @click="addToFilter(index)">{{
                             item.name
                     }}</span>
             </h5>
