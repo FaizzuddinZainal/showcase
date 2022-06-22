@@ -18,7 +18,7 @@ const projectList = reactive(
             name: 'E-Commerce Website',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nulla metus, tristique eget nisi in, rutrum posuere lorem. Donec vitae ultricies odio. Morbi rhoncus lorem id lacus laoreet, ac mollis nibh placerat. Nunc placerat ullamcorper enim, vitae lobortis sem dictum congue. Integer malesuada posuere ligula eget tempor. Quisque sodales tincidunt mi, sit amet mattis quam posuere sit amet. Nulla a arcu nec metus accumsan congue consectetur quis leo. Duis sodales, ex non tristique ornare, sem odio auctor lacus, nec eleifend leo nunc nec tellus. Praesent malesuada mauris tortor, auctor lobortis massa pharetra vitae. Vivamus viverra laoreet sem id ultricies. Sed feugiat volutpat felis eget imperdiet. Nulla facilisi.',
             image: '/',
-            url: '/',
+            url: 'http://localhost:3000',
             git: '/',
             tag: ['React', 'Express', 'NodeJs', 'Material-UI', 'MySQL', 'FPX', 'Web'],
             platform: 'web'
